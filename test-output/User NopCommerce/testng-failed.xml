@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [User NopCommerce]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Run on Chrome(failed)">
+    <classes>
+      <class name="com.nocommerce.user.User_01_Register_Login">
+        <methods>
+          <include name="Tc_01_Register_Empty_Data"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- com.nocommerce.user.User_01_Register_Login -->
+    </classes>
+  </test> <!-- Run on Chrome(failed) -->
+</suite> <!-- Failed suite [User NopCommerce] -->

@@ -2,24 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-14T16:02:03Z" name="User NopComerce" finished-at="2021-05-14T16:02:03Z" duration-ms="42">
+  <suite started-at="2021-05-17T16:03:54Z" name="Default suite" finished-at="2021-05-17T16:04:03Z" duration-ms="9419">
     <groups>
     </groups>
-    <test started-at="2021-05-14T16:02:03Z" name="Run on Chrome" finished-at="2021-05-14T16:02:03Z" duration-ms="42">
-      <class name="com.nopcommerce.user.User_01_Regiter_Login">
-        <test-method is-config="true" signature="BeforClass()[pri:0, instance:com.nopcommerce.user.User_01_Regiter_Login@198b6731]" started-at="2021-05-14T16:02:03Z" name="BeforClass" finished-at="2021-05-14T16:02:03Z" duration-ms="13" status="PASS">
+    <test started-at="2021-05-17T16:03:54Z" name="Default test" finished-at="2021-05-17T16:04:03Z" duration-ms="9419">
+      <class name="com.nocommerce.user.User_01_Register_Login">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:com.nocommerce.user.User_01_Register_Login@26794848]" started-at="2021-05-17T16:03:54Z" name="beforeclass" finished-at="2021-05-17T16:04:03Z" duration-ms="9395" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BeforClass -->
-        <test-method signature="TC_01_Regiter_Empty_Data()[pri:0, instance:com.nopcommerce.user.User_01_Regiter_Login@198b6731]" started-at="2021-05-14T16:02:03Z" name="TC_01_Regiter_Empty_Data" finished-at="2021-05-14T16:02:03Z" duration-ms="5" status="PASS">
+        </test-method> <!-- beforeclass -->
+        <test-method signature="Tc_01_Register_Empty_Data()[pri:0, instance:com.nocommerce.user.User_01_Register_Login@26794848]" started-at="2021-05-17T16:04:03Z" name="Tc_01_Register_Empty_Data" finished-at="2021-05-17T16:04:03Z" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_01_Regiter_Empty_Data -->
-        <test-method is-config="true" signature="AfterClass()[pri:0, instance:com.nopcommerce.user.User_01_Regiter_Login@198b6731]" started-at="2021-05-14T16:02:03Z" name="AfterClass" finished-at="2021-05-14T16:02:03Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterClass -->
-      </class> <!-- com.nopcommerce.user.User_01_Regiter_Login -->
-    </test> <!-- Run on Chrome -->
-  </suite> <!-- User NopComerce -->
+        </test-method> <!-- Tc_01_Register_Empty_Data -->
+      </class> <!-- com.nocommerce.user.User_01_Register_Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
