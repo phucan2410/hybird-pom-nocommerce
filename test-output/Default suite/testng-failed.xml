@@ -3,12 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.nocommerce.user.User_01_Register_Login">
+      <class name="com.alada.login.Level_03_Register_Login_Page_Object_Model">
         <methods>
-          <include name="Tc_01_Register_Empty_Data"/>
+          <include name="Tc_04_Login_With_Invalid_Password"/>
+          <include name="Tc_02_Login_With_Invalid_Email"/>
           <include name="beforeclass"/>
+          <include name="affterClass"/>
+          <include name="Tc_05_Login_With_Valid_Email_Password"/>
+          <include name="Tc_01_Login_With_Empty_Email_Password"/>
+          <include name="Tc_03_Login_With_Email_Not_Registered"/>
         </methods>
-      </class> <!-- com.nocommerce.user.User_01_Register_Login -->
+      </class> <!-- com.alada.login.Level_03_Register_Login_Page_Object_Model -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

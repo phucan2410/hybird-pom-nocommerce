@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite parallel="false" name="User NopCommerce">
+  <test name="Run on Frifox">
+    <classes>
+      <class name="com.alada.login.Level_03_Register_Login_Page_Object_Model"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

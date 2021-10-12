@@ -1,14 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [User NopCommerce]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Run on Chrome(failed)">
+  <test thread-count="5" name="Run on FIREFOX(failed)">
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="com.nocommerce.user.User_01_Register_Login">
+      <class name="com.nocommerce.user.Level_04_Register_Login_Multiple_Browser">
         <methods>
-          <include name="Tc_01_Register_Empty_Data"/>
+          <include name="Tc_03_Verifymyaccount"/>
+          <include name="Tc_01_Register"/>
+          <include name="Tc_02_Login"/>
           <include name="beforeclass"/>
+          <include name="affterClass"/>
         </methods>
-      </class> <!-- com.nocommerce.user.User_01_Register_Login -->
+      </class> <!-- com.nocommerce.user.Level_04_Register_Login_Multiple_Browser -->
     </classes>
-  </test> <!-- Run on Chrome(failed) -->
+  </test> <!-- Run on FIREFOX(failed) -->
+  <test thread-count="5" name="Run on CHROME(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.nocommerce.user.Level_04_Register_Login_Multiple_Browser">
+        <methods>
+          <include name="Tc_03_Verifymyaccount"/>
+          <include name="Tc_01_Register"/>
+          <include name="Tc_02_Login"/>
+          <include name="beforeclass"/>
+          <include name="affterClass"/>
+        </methods>
+      </class> <!-- com.nocommerce.user.Level_04_Register_Login_Multiple_Browser -->
+    </classes>
+  </test> <!-- Run on CHROME(failed) -->
+  <test thread-count="5" name="Run on EDGE(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="com.nocommerce.user.Level_04_Register_Login_Multiple_Browser">
+        <methods>
+          <include name="Tc_03_Verifymyaccount"/>
+          <include name="Tc_01_Register"/>
+          <include name="Tc_02_Login"/>
+          <include name="beforeclass"/>
+          <include name="affterClass"/>
+        </methods>
+      </class> <!-- com.nocommerce.user.Level_04_Register_Login_Multiple_Browser -->
+    </classes>
+  </test> <!-- Run on EDGE(failed) -->
 </suite> <!-- Failed suite [User NopCommerce] -->
